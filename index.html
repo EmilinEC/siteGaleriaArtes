@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Site Galeria</title>
+</head>
+
+<body>
+  <header> 
+    <nav class="nav-bar" img src="./img/LeilaoArtesLogo.jpg">
+      <div class="logo">
+        <h1>Logo</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><!-- importar o mesmo pacote do bootstrap-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   <!-- dropdown-toggle cria a flexinha para baixo -->
+                    Leilões
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="proximosLeiloes.html">Próximos Leilões
+                    </a></li> <!-- se quiser direcionar para outra página é só tirar o jogo da velha e colocar o link desejado-->                              
+                                                   
+                  </ul>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">   <!-- dropdown-toggle cria a flexinha para baixo -->
+                  Obras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="galeria.html">Galeria
+                  </a></li> <!-- se quiser direcionar para outra página é só tirar o jogo da velha e colocar o link desejado 
+                
+                -->
+                  <li><a class="dropdown-item" href="quadros.html">Quadros
+                  </a></li>
+                  <li><a class="dropdown-item" href="esculturas.html">Esculturas
+                  </a></li>             
+                                                                      
+                </ul>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="localizacao.html" id="navbar-link">
+                  Localização
+                </a>                                       
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faleconosco.html" id="navbar-link">
+                  Fale Conosco
+                </a>                                       
+                </ul>
+              </li>          
+                                
+                       
+                  
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>      
+
+    </form>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </header>
+
+    <div>                        
+    <h2>Cadastro & Login</h2>
+    <div class="conteiner">
+      <div class="row">
+      <div class="col-6">    <!--divide a div em duas colunas-->
+        <h3>Cadastro</h3>
+        <p>Nome do Usuário:</p>
+        <input type="form-control me-2" name="Usuário" size="40" />
+        <p>Email do Usuário:</p>
+        <input type="text" name="Email" size="40" /> 
+        <p>Senha:</p>
+        <input type="text" name="Senha" size="8" /> 
+        <p> Repita a senha:</p>
+        <input type="text" name="Repita a senha" size="8" /> 
+        <button>Cadastrar</button>
+      </div>
+      <div class="col-6">  
+        <h3>Login</h3>
+        <p>Email do Usuário:</p>
+        <input type="text" name="Digite seu Email" size="40"/> 
+        <p>Digite sua Senha:</p>
+        <input type="text" name="Digite sua senha" size="8" /> 
+        <button>Logar</button>
+  </div>
+  </div>
+</div>
+  <hr>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+          <div class="col-3" > <!--DIVIDE O TEXTO EM 4 COLUNAS-->
+              <h5>L4 GALERIA</h5>
+              <p>HOME</p>
+              <p>FALE CONOSCO</p>
+              <p>MINHA CONTA</p>
+          </div>
+          <div class="col-3" >
+              <h5>GALERIA PRINCIPAL</h5>
+              <P>ESTRADA DA DISNEY, 1659</P>
+              <P>ARTES LOUCAS, CEP: 0000-0000</P>
+              <P>SÃO PAULO-SP</P>
+          </div>
+          <div class="col-3" >
+              <h5>CONTATO</h5>
+              <P>contato@l4.gmail.com</P>
+              
+          </div>
+          <div class="col-3" >
+            <h5>RECEBA AS NOVIDADES</h5>
+
+        </div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>
